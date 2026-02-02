@@ -124,21 +124,21 @@ const Index = () => {
       name: "Youngblood S1 Tournament 2022",
       placement: "1st Place",
       description:
-        "Proved that war doesn't determine who is right, only who is left.",
+        "Our first tournament, our first win. Proved that war doesn't determine who is right, only who is left.",
       image: compYoungblood,
     },
     {
       name: "Trinity Showdown 2026",
       placement: "1st Place",
       description:
-        "Dominated the Rotaract University of Moratuwa championship with tactical supremacy.",
+        "Dominated the 5v5 Rotaract championship with tactical supremacy.",
       image: compTrinity,
     },
     {
       name: "RUIZ G v2.0 2023 E-Gaming Competition",
       placement: "1st Place",
       description:
-        "Dominated the championship and claimed the title of COD Mobile Champions.",
+        "Claimed champions of BR Squad showdown.",
       image: compRuiz,
     },
     {
