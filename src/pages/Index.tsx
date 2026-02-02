@@ -25,6 +25,7 @@ import playerProfessor from "@/assets/player-professor.jpg";
 import playerJohnny from "@/assets/player-johnny.jpg";
 import playerZozzflank from "@/assets/player-zozzflank.jpg";
 import playerTeddy from "@/assets/player-teddy.jpg";
+import playerThejaa from "@/assets/player-thejaa.png";
 import compRuiz from "@/assets/comp-ruiz.jpg";
 import compAcies from "@/assets/comp-acies.jpg";
 import compYoungblood from "@/assets/comp-youngblood.jpg";
@@ -105,6 +106,12 @@ const Index = () => {
       stats: { kd: 3.4, kills: 2210, mpMatches: 16, brMatches: 13 },
     },
     {
+      name: "Thejaa",
+      tagline: "Silent aim, loud impact.",
+      image: playerThejaa,
+      stats: { kd: 3.8, kills: 2560, mpMatches: 17, brMatches: 15 },
+    },
+    {
       name: "Zozzflank",
       tagline: "Strikes fast, disappears faster.",
       image: playerZozzflank,
@@ -137,8 +144,7 @@ const Index = () => {
     {
       name: "RUIZ G v2.0 2023 E-Gaming Competition",
       placement: "1st Place",
-      description:
-        "Claimed champions of BR Squad showdown.",
+      description: "Claimed champions of BR Squad showdown.",
       image: compRuiz,
     },
     {
