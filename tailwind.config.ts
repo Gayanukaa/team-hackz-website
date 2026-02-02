@@ -2,7 +2,12 @@ import type { Config } from "tailwindcss";
 
 export default {
   darkMode: ["class"],
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
+  content: [
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -14,7 +19,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        rajdhani: ['Rajdhani', 'sans-serif'],
+        rajdhani: ["Rajdhani", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -108,7 +113,8 @@ export default {
             boxShadow: "0 0 20px hsl(var(--neon-red) / 0.5)",
           },
           "50%": {
-            boxShadow: "0 0 40px hsl(var(--neon-red) / 0.8), 0 0 60px hsl(var(--neon-red) / 0.4)",
+            boxShadow:
+              "0 0 40px hsl(var(--neon-red) / 0.8), 0 0 60px hsl(var(--neon-red) / 0.4)",
           },
         },
       },

@@ -2,7 +2,13 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
 import PlayerCard from "@/components/PlayerCard";
 import CompetitionCard from "@/components/CompetitionCard";
@@ -117,51 +123,59 @@ const Index = () => {
     {
       name: "Youngblood S1 Tournament 2022",
       placement: "1st Place",
-      description: "Proved that war doesn't determine who is right, only who is left.",
+      description:
+        "Proved that war doesn't determine who is right, only who is left.",
       image: compYoungblood,
     },
     {
       name: "Trinity Showdown 2026",
       placement: "1st Place",
-      description: "Dominated the Rotaract University of Moratuwa championship with tactical supremacy.",
+      description:
+        "Dominated the Rotaract University of Moratuwa championship with tactical supremacy.",
       image: compTrinity,
     },
     {
       name: "RUIZ G v2.0 2023 E-Gaming Competition",
       placement: "1st Place",
-      description: "Dominated the championship and claimed the title of COD Mobile Champions.",
+      description:
+        "Dominated the championship and claimed the title of COD Mobile Champions.",
       image: compRuiz,
     },
     {
       name: "ACIES Season 03 2024",
       placement: "1st Place",
-      description: "Champions of the season with tactical excellence and flawless execution.",
+      description:
+        "Champions of the season with tactical excellence and flawless execution.",
       image: compAcies,
     },
     {
       name: "Last Breath Arena 2025 (Professor - Solo)",
       placement: "1st Place",
-      description: "Professor claimed victory in the intense duel masters tournament.",
+      description:
+        "Professor claimed victory in the intense duel masters tournament.",
       image: compProfessorDuel,
     },
     // 2nd Place
     {
       name: "IUEC 22 5v5 Championship",
       placement: "2nd Place",
-      description: "Secured runners-up position in the Inter-University eSports Championship.",
+      description:
+        "Secured runners-up position in the Inter-University eSports Championship.",
       image: compIuec,
     },
     {
       name: "Eclipse Playoffs 2025",
       placement: "2nd Place",
-      description: "Fought through intense playoffs to claim runners-up in the tournament.",
+      description:
+        "Fought through intense playoffs to claim runners-up in the tournament.",
       image: compEclipse,
     },
     // 3rd Place
     {
       name: "IUEC 22 Solo BR Championship (Dante - Solo)",
       placement: "3rd Place",
-      description: "Individual achievement by Dante in the Inter-University championship tournament.",
+      description:
+        "Individual achievement by Dante in the Inter-University championship tournament.",
       image: compIuecDante,
     },
   ];
@@ -196,15 +210,19 @@ const Index = () => {
           </p>
 
           <p className="text-lg md:text-xl text-foreground/90 max-w-3xl mx-auto leading-relaxed">
-            Team Hackz is a Call of Duty: Mobile team from Mora Esports started in 2021.
-            <br/>
+            Team Hackz is a Call of Duty: Mobile team from Mora Esports started
+            in 2021.
+            <br />
             We live to compete, and we dominate every match we enter.
           </p>
         </div>
       </section>
 
       {/* Team Section */}
-      <section id="team" className="py-20 px-4 bg-gradient-to-b from-background to-background/95">
+      <section
+        id="team"
+        className="py-20 px-4 bg-gradient-to-b from-background to-background/95"
+      >
         <div className="container mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-glow-blue animate-slide-up">
             THE TEAM
@@ -215,7 +233,9 @@ const Index = () => {
 
           {/* Leadership */}
           <div className="mb-16">
-            <h3 className="text-2xl font-bold text-primary mb-8 text-center">Leadership</h3>
+            <h3 className="text-2xl font-bold text-primary mb-8 text-center">
+              Leadership
+            </h3>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               {leaders.map((leader) => (
                 <PlayerCard key={leader.name} {...leader} isLeader />
@@ -225,7 +245,9 @@ const Index = () => {
 
           {/* Players Grid */}
           <div>
-            <h3 className="text-2xl font-bold text-secondary mb-8 text-center">Elite Squad</h3>
+            <h3 className="text-2xl font-bold text-secondary mb-8 text-center">
+              Elite Squad
+            </h3>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {players.map((player) => (
                 <PlayerCard key={player.name} {...player} />
@@ -236,7 +258,10 @@ const Index = () => {
       </section>
 
       {/* Competitions Section */}
-      <section id="competitions" className="py-20 px-4 bg-gradient-to-b from-background/95 to-background">
+      <section
+        id="competitions"
+        className="py-20 px-4 bg-gradient-to-b from-background/95 to-background"
+      >
         <div className="container mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-glow-red animate-slide-up">
             TOURNAMENTS & ACHIEVEMENTS
@@ -254,7 +279,10 @@ const Index = () => {
       </section>
 
       {/* Video Highlights Section */}
-      <section id="highlights" className="py-20 px-4 bg-gradient-to-b from-background to-background/95">
+      <section
+        id="highlights"
+        className="py-20 px-4 bg-gradient-to-b from-background to-background/95"
+      >
         <div className="container mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-glow-purple animate-slide-up">
             HIGHLIGHTS

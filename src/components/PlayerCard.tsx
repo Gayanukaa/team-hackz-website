@@ -20,7 +20,13 @@ interface PlayerCardProps {
   isLeader?: boolean;
 }
 
-const PlayerCard = ({ name, tagline, image, stats, isLeader = false }: PlayerCardProps) => {
+const PlayerCard = ({
+  name,
+  tagline,
+  image,
+  stats,
+  isLeader = false,
+}: PlayerCardProps) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -37,10 +43,10 @@ const PlayerCard = ({ name, tagline, image, stats, isLeader = false }: PlayerCar
           alt={name}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
-        
+
         {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent opacity-80" />
-        
+
         {/* Name, tagline, and role - always visible */}
         <div className="absolute bottom-0 left-0 right-0 p-6 z-10">
           <h3 className="text-2xl font-bold text-foreground mb-1">{name}</h3>
