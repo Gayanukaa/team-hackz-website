@@ -17,6 +17,7 @@ interface PlayerCardProps {
   tagline: string;
   image: string;
   stats: PlayerStats;
+  role?: string;
   isLeader?: boolean;
 }
 
@@ -25,6 +26,7 @@ const PlayerCard = ({
   tagline,
   image,
   stats,
+  role,
   isLeader = false,
 }: PlayerCardProps) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -51,9 +53,9 @@ const PlayerCard = ({
         <div className="absolute bottom-0 left-0 right-0 p-6 z-10">
           <h3 className="text-2xl font-bold text-foreground mb-1">{name}</h3>
           <p className="text-sm text-primary italic mb-1">"{tagline}"</p>
-          {isLeader && (
+          {role && (
             <p className="text-xs text-muted-foreground uppercase tracking-wider">
-              {name === "Lex" ? "Team Leader" : "Team Manager"}
+              {role}
             </p>
           )}
         </div>

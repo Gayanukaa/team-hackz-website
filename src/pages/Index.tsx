@@ -26,6 +26,13 @@ import playerJohnny from "@/assets/player-johnny.jpg";
 import playerZozzflank from "@/assets/player-zozzflank.jpg";
 import playerTeddy from "@/assets/player-teddy.jpg";
 import playerThejaa from "@/assets/player-thejaa.png";
+import playerTyzar from "@/assets/player-tyzar.jpg";
+import playerDevin from "@/assets/player-devin.jpg";
+import playerBeliever from "@/assets/player-believer.jpg";
+import playerShaggy from "@/assets/player-shaggy.jpg";
+import playerSukuna from "@/assets/player-sukuna.jpg";
+import playerKai from "@/assets/player-kai.jpg";
+import playerSherry from "@/assets/player-sherry.jpg";
 import compRuiz from "@/assets/comp-ruiz.jpg";
 import compAcies from "@/assets/comp-acies.jpg";
 import compYoungblood from "@/assets/comp-youngblood.jpg";
@@ -58,20 +65,28 @@ const Index = () => {
 
   const leaders = [
     {
+      name: "Zira",
+      tagline: "Dances through danger, hits perfect.",
+      image: playerIzira,
+      role: "Team Leader",
+      stats: { kd: 3.9, kills: 2780, mpMatches: 21, brMatches: 16 },
+    },
+    {
+      name: "Believer",
+      tagline: "Believes in the squad, builds the wins.",
+      image: playerBeliever,
+      role: "Team Manager",
+      stats: {},
+    },
+  ];
+
+  const players = [
+    {
       name: "Lex",
       tagline: "Leads the charge, plans victory",
       image: playerLex,
       stats: { kd: 4.1, kills: 3020, mpMatches: 25, brMatches: 21 },
     },
-    {
-      name: "Stacy",
-      tagline: "Voice of focus under fire",
-      image: playerStacey,
-      stats: { managedCompetitions: 12, wins: 7, experience: "3 Years" },
-    },
-  ];
-
-  const players = [
     {
       name: "Dante",
       tagline: "The calm before clutch chaos.",
@@ -85,10 +100,10 @@ const Index = () => {
       stats: { kd: 3.2, kills: 1980, mpMatches: 15, brMatches: 10 },
     },
     {
-      name: "Zira",
-      tagline: "Dances through danger, hits perfect.",
-      image: playerIzira,
-      stats: { kd: 3.9, kills: 2780, mpMatches: 21, brMatches: 16 },
+      name: "Stacy",
+      tagline: "Voice of focus under fire",
+      image: playerStacey,
+      stats: { managedCompetitions: 12, wins: 7, experience: "3 Years" },
     },
     {
       name: "Satan",
@@ -125,6 +140,42 @@ const Index = () => {
       tagline: "Soft name, hard eliminations.",
       image: playerTeddy,
       stats: { kd: 3.3, kills: 2050, mpMatches: 12, brMatches: 9 },
+    },
+    {
+      name: "TYZAR",
+      tagline: "Rules the lobby with an iron aim.",
+      image: playerTyzar,
+      stats: {},
+    },
+    {
+      name: "Devin",
+      tagline: "Locks in, never blinks.",
+      image: playerDevin,
+      stats: {},
+    },
+    {
+      name: "Shaggy",
+      tagline: "Chill vibes, deadly aim.",
+      image: playerShaggy,
+      stats: {},
+    },
+    {
+      name: "Sukuna",
+      tagline: "Every lobby is cursed ground.",
+      image: playerSukuna,
+      stats: {},
+    },
+    {
+      name: "KAI",
+      tagline: "One stare, one squad wipe.",
+      image: playerKai,
+      stats: {},
+    },
+    {
+      name: "Sherry",
+      tagline: "Smooth entry, clean exit.",
+      image: playerSherry,
+      stats: {},
     },
   ];
 
