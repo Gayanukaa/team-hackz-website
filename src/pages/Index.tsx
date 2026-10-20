@@ -34,6 +34,9 @@ import compEclipse from "@/assets/comp-eclipse.jpg";
 import compIuecDante from "@/assets/comp-iuec-dante.jpg";
 import compProfessorDuel from "@/assets/comp-professor-duel.jpg";
 import compTrinity from "@/assets/comp-trinity.png";
+import compRuizV5 from "@/assets/comp-ruiz-v5.jpg";
+import compFutureStarsZira from "@/assets/comp-future-stars-zira.jpg";
+import compVanguard from "@/assets/comp-vanguard.jpg";
 
 const Index = () => {
   const { toast } = useToast();
@@ -135,6 +138,13 @@ const Index = () => {
       image: compYoungblood,
     },
     {
+      name: "RUIZ-G V5 Inter University Championship",
+      placement: "1st Place",
+      description:
+        "Team Hackz A took the title and Team Hackz B finished 3rd, with D.H. Hemaratne named Best Player.",
+      image: compRuizV5,
+    },
+    {
       name: "Trinity Showdown 2026",
       placement: "1st Place",
       description:
@@ -155,6 +165,13 @@ const Index = () => {
       image: compAcies,
     },
     {
+      name: "Future Stars Intra University Tournament (Zira - Solo)",
+      placement: "1st Place",
+      description:
+        "Zira was crowned champion of the intra-university tournament, one step closer to glory.",
+      image: compFutureStarsZira,
+    },
+    {
       name: "Last Breath Arena 2025 (Professor - Solo)",
       placement: "1st Place",
       description:
@@ -162,6 +179,13 @@ const Index = () => {
       image: compProfessorDuel,
     },
     // 2nd Place
+    {
+      name: "Vanguard Inter University E-Sport Showdown",
+      placement: "2nd Place",
+      description:
+        "Battled through the inter-university showdown to finish as runners-up.",
+      image: compVanguard,
+    },
     {
       name: "IUEC 22 5v5 Championship",
       placement: "2nd Place",
@@ -217,7 +241,7 @@ const Index = () => {
 
           <p className="text-lg md:text-xl text-foreground/90 max-w-3xl mx-auto leading-relaxed">
             Team Hackz is a Call of Duty: Mobile team from Mora Esports started
-            in 2021.
+            in 2022.
             <br />
             We live to compete, and we dominate every match we enter.
           </p>
