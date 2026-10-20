@@ -189,7 +189,7 @@ const Index = () => {
       image: compYoungblood,
     },
     {
-      name: "RUIZ-G V5 Inter University Championship",
+      name: "RUIZ-G V5 Inter University Championship 2026",
       placement: "1st Place",
       description:
         "Team Hackz A took the title and Team Hackz B finished 3rd, with D.H. Hemaratne named Best Player.",
@@ -216,7 +216,7 @@ const Index = () => {
       image: compAcies,
     },
     {
-      name: "Future Stars Intra University Tournament (Zira - Solo)",
+      name: "Future Stars Intra University Tournament 2026 (Zira - Solo)",
       placement: "1st Place",
       description:
         "Zira was crowned champion of the intra-university tournament, one step closer to glory.",
@@ -231,7 +231,7 @@ const Index = () => {
     },
     // 2nd Place
     {
-      name: "Vanguard Inter University E-Sport Showdown",
+      name: "Vanguard Inter University E-Sport Showdown 2026",
       placement: "2nd Place",
       description:
         "Battled through the inter-university showdown to finish as runners-up.",
